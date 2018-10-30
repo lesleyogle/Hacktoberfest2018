@@ -20,8 +20,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow boop copy" translatesAutoresizingMaskIntoConstraints="NO" id="vtK-uq-HGE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXn-xw-EEM">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXn-xw-EEM">
                                 <rect key="frame" x="58" y="521" width="147" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
                                 <state key="normal" title="BOOP">
@@ -32,17 +33,16 @@
                                     <color key="titleColor" red="0.39135539531707764" green="0.28007632493972778" blue="0.077436409890651703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Xtd-j8-jU8" kind="show" id="TIy-yo-fQ7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vtK-uq-HGE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3RC-VH-QLH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KXn-xw-EEM" secondAttribute="trailing" constant="209" id="4bv-us-9ma"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KXn-xw-EEM" secondAttribute="bottom" constant="269" id="ErJ-kD-tB5"/>
                             <constraint firstAttribute="bottom" secondItem="vtK-uq-HGE" secondAttribute="bottom" id="I53-1f-H7U"/>
-                            <constraint firstItem="KXn-xw-EEM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="477" id="WBM-a3-fxa"/>
-                            <constraint firstItem="KXn-xw-EEM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="Wfz-5j-JGv"/>
                             <constraint firstItem="vtK-uq-HGE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rq7-Zv-o1f"/>
                             <constraint firstItem="vtK-uq-HGE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wmz-eN-6qd"/>
                         </constraints>
@@ -64,8 +64,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boopleggyboi" translatesAutoresizingMaskIntoConstraints="NO" id="SwN-QX-q2a">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJL-9w-v27">
-                                <rect key="frame" x="58" y="521" width="147" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJL-9w-v27">
+                                <rect key="frame" x="160" y="312" width="147" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
                                 <size key="titleShadowOffset" width="2" height="1"/>
                                 <state key="normal" title="BOOP">
@@ -82,13 +83,9 @@
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="SwN-QX-q2a" firstAttribute="trailing" secondItem="Qti-Fj-eto" secondAttribute="trailing" id="BIT-qy-aOR"/>
-                            <constraint firstItem="zJL-9w-v27" firstAttribute="top" secondItem="Qti-Fj-eto" secondAttribute="top" constant="477" id="Krp-G9-JBa"/>
-                            <constraint firstItem="zJL-9w-v27" firstAttribute="leading" secondItem="Qti-Fj-eto" secondAttribute="leading" constant="58" id="V6j-8O-tvS"/>
                             <constraint firstItem="SwN-QX-q2a" firstAttribute="leading" secondItem="Qti-Fj-eto" secondAttribute="leading" id="VJX-Iz-Nxf"/>
-                            <constraint firstItem="Qti-Fj-eto" firstAttribute="bottom" secondItem="zJL-9w-v27" secondAttribute="bottom" constant="269" id="dga-t8-XAN"/>
                             <constraint firstAttribute="bottom" secondItem="SwN-QX-q2a" secondAttribute="bottom" id="p70-ib-w1U"/>
                             <constraint firstItem="SwN-QX-q2a" firstAttribute="top" secondItem="WzI-sp-Wbe" secondAttribute="top" id="tpL-Bi-8Ww"/>
-                            <constraint firstItem="Qti-Fj-eto" firstAttribute="trailing" secondItem="zJL-9w-v27" secondAttribute="trailing" constant="209" id="vuh-QR-MfR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Qti-Fj-eto"/>
                     </view>
